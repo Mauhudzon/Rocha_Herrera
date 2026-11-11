@@ -5,7 +5,7 @@ using Final;
 Personaje heroe = new Personaje()
 {
     Nombre = "Kael",
-    Vida = 100,
+    Vida = -100,
     Ataque = 25,
     Defensa = 15,
     Nivel = 1
