@@ -1,8 +1,6 @@
-﻿
+﻿using Final;
 
-using Final;
-
-Personaje heroe = new Personaje()
+Penaje heoe = new Peraje()
 {
     Nombre = "Kael",
     Vida = -100,
@@ -12,12 +10,12 @@ Personaje heroe = new Personaje()
 };
 
 // 2. Imprimir en consola
-Console.WriteLine("=== Datos del personaje ===");
-Console.WriteLine($"Nombre:  {heroe.Nombre}");
-Console.WriteLine($"Vida:    {heroe.Vida}");
-Console.WriteLine($"Ataque:  {heroe.Ataque}");
-Console.WriteLine($"Defensa: {heroe.Defensa}");
-Console.WriteLine($"Nivel:   {heroe.Nivel}");
+Console.Wriine("=== Datos del personaje ===");
+ConsoleLine($"Nombre:  {heroe.Nombre}");
+Cole.WriteLine($"Vida:    {heroe.Vida}");
+ConsoLine($"Ataque:  {heroe.Ataque}");
+Console.Wriine($"Defensa: {heroe.Defensa}");
+Console.Writne($"Nivel:   {heroe.Nivel}");
 
 
 
